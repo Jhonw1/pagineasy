@@ -1,0 +1,1001 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif
+}
+.fondo{
+    background-image: url(/images/Fondo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;   
+}
+header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color:#363e44b6;
+    height: 20%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.logo{
+    font-size: 40px;
+    color: white;
+}
+.menu{
+    font-size: 18px;
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.menu ul {
+    display: flex;
+    align-items: center;
+    height: 50%;
+    width: 100%;
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+    padding: 1%;
+    border: 3px solid rgba(0,0,0,0);
+
+}
+
+.menu a:hover{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #4BCAFF;
+    border: #4BCAFF solid 3px ;
+
+    
+}
+.menu li{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style: none;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+
+/* segunda parte/////////////////////////////////////////////////////////////////////////////// */
+.segunda-parte{
+    display: grid;
+    grid-template-rows: 46%  14% 14% 46%;
+    grid-template-columns: 3fr 1fr 6fr 1fr 3fr;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 21px;
+    color: white;
+    height: 66.6%;
+}
+.segunda-parte .titulo1{
+    background-color: #49545B;
+    grid-row: 2/3;
+    grid-column: 3/4;
+    margin-top: 40px;
+}
+.segunda-parte .titulo2{
+    grid-column: 2/5;
+    grid-row: 3/4;
+    background-color: #49545B;
+}
+
+/* tercera parte/////////////////////////////////////////////////////////////////////////////// */
+.tercera-parte{
+    background-color: #4BCAFF;
+    height: 40vh;
+    display: grid;
+    grid-template-columns: 3fr 2.2fr 2.2fr 2.2fr 2.2fr 2.5fr;
+    grid-template-rows: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.caja-frame{
+    grid-column: 5/6;
+    width: 95%;
+}
+.logo-frame img{
+    width: 18%;
+}
+.titulo-cofe{
+    margin-top:  7%;
+    color: white;
+}
+.caja-frame P{
+    margin-top: 7%;
+    color: white;
+}
+
+.caja-sirious{
+    grid-column: 4/5;
+    width: 95%;
+}
+.logo-sirious img{
+    width: 18%;
+}
+.caja-sirious P{
+    margin-top: 7%;
+    color: white;
+}
+.caja-instant{
+    grid-column: 3/4;
+    width: 95%;
+}
+.logo-instant img{
+    width: 18%;
+}
+.caja-instant p{
+    margin-top: 7%;
+    color: white;
+
+}
+.caja-cofe{
+    grid-column: 2/3;
+    width: 95%;
+}
+.logo-cofe img{
+    width: 13%;
+}
+.caja-cofe p{
+    margin-top: 7%;
+    color: white;
+}
+/* cuarta-parte////////////////////////// */
+
+.cuarta-parte{
+    height: 85vh;
+    display: grid;
+    grid-template-columns: 1.9fr 5fr 1.9fr;
+    grid-row: auto;
+    /* align-items: center; */
+}
+
+.portafolio{
+    grid-column: 2/3;
+    display: grid;
+    grid-template-rows: 20% 60%;
+    flex-direction: column;
+}
+.imagenes{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+    grid-gap: 30px;
+}
+.imagenes img{
+    width: 100%;
+    
+}
+
+
+.titulo-portafolio{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #353f46;
+}
+.titulo-portafolio h1{
+    font-size: 30px;
+}
+.raya1{
+    width: 28%;
+    color:#353f46;
+    border: solid 1px;
+}
+.menu2{
+    font-size: 15px;
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.menu2 a:hover{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #4BCAFF;
+    border: #4BCAFF solid 3px ;
+
+}
+.menu2 a{
+    text-decoration: none;
+    color: black;
+    padding: 1%;
+    border: 3px solid rgba(0,0,0,0);
+}
+.menu2 li{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+    width: 80%;
+    height: 100%;
+}
+.menu2 ul {
+    display: flex;
+    align-items: center;
+    height: 50%;
+    width: 100%;
+}
+
+/* quinta-parte////////////////////////// */
+
+.quinta-parte{
+    background-color: #515F67;
+    height: 54vh;
+    display: grid;
+    grid-template-columns: 1.9fr 6fr 1fr;
+}
+.cajas-textoImagen{
+    display: flex;
+    justify-content: space-between;
+    grid-column: 2/3;
+    align-items: center;
+}
+.caja-texto-quintaP{
+    width: 40%;
+    color: white;
+}
+.caja-texto-quintaP h1{
+    font-size: 25px;
+}
+hr{
+    width: 11%;
+}
+.caja-texto-quintaP p{
+    font-size: 13px;
+}
+
+.video img{
+    width: 80%;
+}
+.boton-visit button{
+    padding: 10px 30px;
+    background-color: #49545b00;
+    border:#353f46 solid 2px;
+}
+.boton-visit a{
+    text-decoration: none;
+    color: #353f46;
+    font-size: 20px;
+}
+
+/* sexta-parte////////////////////////// */
+.sexta-parte{
+    height: 32vh;
+    background-color: #4BCAFF;
+    display: grid;
+    grid-template-columns: 1.9fr 6fr 1.9fr;
+}
+.twiter{
+    grid-column: 2/3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+.titulo-twiter{
+    display: flex;
+    justify-content: space-between;
+    font-size: 19px;
+}
+.raya3{
+    width: 40%;
+    color: white;
+    border: solid 1px;
+}
+.twiter p{
+    font-size: 21px;
+}
+.imagen-twiter img{
+    width: 100%;
+}
+
+/* septima-parte////////////////////////// */
+.septima-parte{
+    background-image: url(/images/bg_whoIs.png);
+    height: 53vh;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: 1.9fr 6fr 1.9fr;
+}
+.camara{
+    display: flex;
+    flex-direction: column;
+    grid-column: 2/3;
+    color:#c8d3dc;
+    justify-content: center;
+}
+.camara h1{
+    font-size: 35px;
+}
+.texto-camara{
+    display: flex;
+    justify-content: space-between;
+}
+.parrafo1{
+    width: 46%;
+}
+.parrafo2{
+    width: 50%;
+}
+.imagenes-demas {
+    padding: 0px 10px;
+}
+
+/* octava-parte////////////////////////// */
+
+.octava-parte{
+    height: 38vh;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1.9fr 6fr 1.9fr;
+
+}
+.comillas{
+    color: #7D868C;
+    grid-column: 2/3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.titulo-comillas{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+.comillas-logo h1{
+    color:#353f46;
+    font-size: 60px;
+}
+.raya4{
+    width: 25%;
+    color: #7D868C;
+    border: solid 1px;
+}
+.comillas p{
+    font-size: 25px;
+}
+.comillas .letra-azul{
+    font-size: 20px;
+}
+/* novena-parte////////////////////////// */
+.novena-parte{
+    background-image: url(/images/bg_contact.png);
+    background-size: cover;
+    height: 85vh;
+    display: grid;
+    grid-template-columns:1.9fr 6fr 1.9fr;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    grid-column: 2/3;
+    color: white;
+}
+.titulo-contact{
+    font-size: 20px;
+}
+.raya5{
+    width: 5%;
+    color: white;
+    border: solid 1px;
+}
+.formulario{
+    display: flex;
+    justify-content: space-between;
+}
+.name{
+    width: 50%;
+    display: grid;
+    grid-template-rows: 50% 50%;
+}
+.full-email{
+    grid-row: 3/2;
+}
+.full-name input{
+    padding: 15px 100px;
+    background-color: rgba(0, 0, 0, 0);
+    border: solid 2px;
+    color: white;
+}
+.full-name label{
+    font-size: 13px;
+}
+
+.full-email input{
+    padding: 15px 100px;
+    background-color: rgba(0, 0, 0, 0);
+    border: solid 2px;
+    color: white;
+}
+.full-email label{
+    font-size: 13px;
+}
+
+.parrafos{
+    width: 50%;
+    display: grid;
+    grid-template-rows: 50% 50%;
+    font-size: 12px;
+}
+.contactP2{
+    grid-row: 3/2;
+}
+.mensaje label{
+    font-size: 13px;
+
+}
+.mensaje textarea{
+    padding: 70px 385px;
+    background-color: rgba(0, 0, 0, 0);
+    border: solid 2px;
+    color: white;
+}
+.boton-message button{
+    padding: 14px 120px;
+    background-color: #4BCAFF;
+    border: none;
+}
+.boton-message a{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+}
+
+/* footer//////////////////////////////// */
+footer{
+    background-color: #353F47;
+    height: 18vh;
+    display: grid;
+    grid-template-columns:1.9fr 6fr 1.9fr;
+    color: rgba(255, 255, 255, 0.205);
+}
+.menu-foter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    grid-column: 2/3;
+}
+.menu-foter ul{
+    width: 39%;
+}
+
+.menu-foter a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.205);
+
+}
+.menu-foter li{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+}
+/* media queries//////////////////////////////////////////////////// */
+@media (max-width: 928px){
+    /* segunda parte////////////// */
+    .segunda-parte{
+        font-size: 15.3px;
+    }
+    /* tercera parte////////////// */
+    .tercera-parte{
+        height: 60vh;
+        grid-template-columns:  3fr 2.5fr 2.5fr 2.5fr 2.5fr 2fr;
+    }
+    /* cuarta parte////////////// */
+    .cuarta-parte{
+        grid-template-columns: 1.7fr 5fr 1.7fr;
+    }
+    .titulo-portafolio h1{
+        font-size: 20px;
+    }
+    .menu2 li{
+        width: 70%;
+    }
+    .menu2 a{
+        font-size: 10px;
+    }
+    /* quinta parte////////////// */
+    .quinta-parte{
+        height: 70vh;
+    }
+    .caja-texto-quintaP h1{
+        font-size: 15px;
+    }
+    .caja-texto-quintaP {
+        width: 50%;
+    
+    }
+    .video{
+        width: 50%;
+    }
+    /* sexta parte////////////// */
+    .sexta-parte{
+        height: 40vh;
+    }
+    /* septima parte////////////// */
+    .septima-parte{
+        height: 66vh;
+        background-size: 100% 100%;
+        background-position: center center;
+        background-repeat: no-repeat;
+
+    }
+    /* octava parte////////////// */
+   
+    .titulo-comillas h1{
+        font-size: 25px;
+    }
+    .comillas-logo h1{
+        font-size: 30px;
+    }
+    .comillas p{
+        font-size: 20px;
+    }
+    /*novena parte////////////// */
+    .raya5{
+        width: 9%;
+    }
+
+    .full-name input{
+        padding: 14px 45px;
+    }
+    .full-email input{
+        padding: 14px 45px;
+
+    }
+    .mensaje textarea{
+        padding: 60px 210px;
+    }
+    .boton-message button{
+        padding: 14px 80px;
+    }
+    footer{
+        grid-template-columns: 1.5fr 6fr 1.5fr;
+    }
+    .menu-foter{
+        font-size: 14px;
+    }
+    .menu-foter ul{
+        width: 50%;
+    }
+
+
+}
+@media (max-width: 800px){
+    .logo{
+        font-size: 25px;
+    }
+    .menu a{
+        font-size: 15px;
+    }
+    /* segunda parte////////////// */
+
+    .segunda-parte{
+        font-size: 13px;
+    }
+    /* tercera parte////////////// */
+    .tercera-parte{
+        height: 70vh;
+        grid-template-columns:     3fr 2.2fr 2.2fr 2.2fr 2.2fr 2.5fr;
+    }
+    /* cuarta parte////////////// */
+    .titulo-portafolio h1{
+        font-size: 25px;
+    }
+    .menu2 a{
+        
+        font-size: 13px;
+    }
+    .menu2 li{
+        width: 50%;
+    }
+    /* quinta parte////////////// */
+    .quinta-parte{
+        height: 70vh;
+    }
+    .caja-texto-quintaP{
+        width: 50%;
+    }
+    .caja-texto-quintaP h1{
+        font-size: 13px;
+        width: 90%;
+    }
+    /* sexta parte////////////// */
+    .sexta-parte{
+        height: 40vh;
+    }
+    /* septima parte////////////// */
+    .septima-parte{
+        height: 70vh;
+        grid-template-columns: 1.5fr 6fr 1fr ;
+        background-position: center center;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+    .camara h1{
+        font-size: 20px;
+    }
+    .imagenesP img{
+        width: 20%;
+    
+    }
+    .imagenesP{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    /* octava-parte////////////// */
+    .octava-parte{
+        height: 40vh;
+    }
+    .titulo-comillas{
+        display: flex;
+        align-items: center;
+        font-size: 15px;
+    }
+    .comillas-logo h1{
+
+        font-size: 40px;
+    }
+    .comillas p{
+        font-size: 15px;
+    }
+    /* novena parte////////////// */
+
+    .contact{
+        width: 100%;
+    }
+    .titulo-contact h1{
+        font-size: 20px;
+    }
+    .raya5{
+        width: 14%;
+    }
+    .name{
+        width: 50%;
+    }
+    .full-name input{
+        padding: 11px 25px;
+    }
+    .full-email input{
+        padding: 11px 25px;
+
+    }
+    .parrafos{
+        width: 50%;
+        font-size: 10px;
+    }
+    .contact-primera{
+        width: 100%;
+    }
+    .contact-segunda{
+        width: 100%;
+    }
+    .mensaje textarea{
+        padding: 20px 175px;
+    }
+    .boton-message button{
+        padding: 13px 60px;
+    }
+    footer{
+        grid-template-columns: 1.5fr 6fr 1.5fr;
+    }
+    .menu-foter{
+        font-size: 12px;
+    }
+    .menu-foter ul{
+        width: 60%;
+    }
+
+
+
+
+}
+@media (max-width: 716px){
+    .segunda-parte{
+        font-size: 13px;
+        grid-template-columns: 2fr 1fr 6fr 1fr 2fr;
+    }
+    /* cuarta parte/////////////////////7 */
+    .titulo-portafolio h1{
+        font-size: 20px;
+    }
+    .menu ul{
+        width: 100%;
+    }
+    .menu2 li{
+        width: 100%;
+    }
+    .menu2 a{
+        font-size: 9px;
+    }
+    /* quinta parte/////////////////////7 */
+    .video{
+
+        display: flex;
+        justify-content: center;
+    }
+
+
+}
+@media (max-width: 630px){
+
+    .logo{
+        margin-top: 18px;
+    }
+    header{
+        display: flex;
+        flex-direction: column;
+    }
+    /* segunda parte//////////////////////// */
+    .segunda-parte{
+        grid-template-columns: 1fr 1fr 6fr 1fr 1fr;
+    }
+    /*tercera parte//////////////////////// */
+    .tercera-parte{
+        grid-template-columns: 2fr 3fr 3fr 3fr 3fr 2fr;
+    }
+}
+@media (max-width: 540px){
+    .segunda-parte{
+        font-size: 12px;
+    }
+    /*tercera parte//////////////////////// */
+    .tercera-parte{
+        grid-template-columns: 1.5fr 3fr 3fr 3fr 3fr 1fr;
+
+    }
+    .titulo-cofe h1{
+        font-size: 15px;
+    }
+    .caja-cofe p{
+        font-size: 15px;
+    }
+    .caja-instant p{
+        font-size: 15px;
+    }
+    .caja-sirious p{
+        font-size: 15px;
+    }
+    .caja-frame p{
+        font-size: 15px;
+    }
+    .titulo-portafolio{
+        display: flex;
+        flex-direction: column;
+    }
+    .menu2{
+        width: 100%;
+    }
+    .titulo-portafolio h1{
+        font-size: 17px;
+        margin-top: 25px;
+    
+    }
+    /* quinta parte////////////////7 */
+    .boton-visit button{
+        padding: 7px 20px;
+
+    }
+    /* septima parte////////////////7 */
+    .septima-parte{
+        height: 80vh;
+    }
+    /* novena parte////////////////7 */
+    .novena-parte{
+        grid-template-columns: 1fr 4fr 1fr;
+
+    }
+    .mensaje textarea{
+        padding: 20px 100px;
+
+    }
+    .full-name input{
+        padding: 11px 0px;
+    }
+    .full-email input{
+        padding: 11px 0px;
+    }
+    .contact p{
+        font-size: 9px;
+    }
+    .boton-message button{
+        padding: 9px 30px;
+    }
+    footer{
+        grid-template-columns: 1fr 6fr 1fr;
+    }
+    .menu-foter{
+        font-size: 11px;
+    }
+    .menu-foter ul{
+        width: 60%;
+    }
+
+}
+@media (max-width: 396px){
+    .menu a{
+        font-size: 11px;
+
+    }
+}
+@media (max-width: 350px){
+    .segunda-parte{
+        font-size: 40%;
+        grid-template-columns: 1fr 1fr 5fr 1fr 1fr;
+
+    }
+    /* tercera parte//////////////////////7 */
+
+    .tercera-parte{
+        
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        grid-template-columns: 1fr 4fr 1fr;
+        height: 150vh;
+    }
+    .caja-cofe{
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+    }
+    .logo-cofe img{
+        width: 10%;
+    }
+    .caja-cofe p{
+        font-size: 12px;
+    }
+    .caja-instant{
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+    }
+    .logo-instant img{
+        width: 10%;
+    }
+    .caja-instant p{
+        font-size: 12px;
+    }
+    .caja-sirious{
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+    }
+    .logo-sirious img{
+        width: 10%;
+    }
+    .caja-sirious p{
+        font-size: 12px;
+    }
+    .caja-frame{
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+    }
+    .logo-frame img{
+        width: 10%;
+    }
+    .caja-frame p{
+        font-size: 12px;
+    }
+    /* parte cuarta//////////////////////7 */
+    .menu2 li{
+        width: 100%;        
+        justify-content: space-evenly;
+    }
+    .titulo-portafolio{
+        
+    }
+    .menu2 a{
+        font-size: 8px;
+    }
+    .cuarta-parte{
+        height:210vh;   
+    }
+    .portafolio{
+        width: 100%;
+        grid-template-rows: 10% 50%;
+    }
+    .raya1{
+        width: 25%;
+    }
+    .imagenes{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .imagenes img{
+        width: 70%;
+    
+    }
+    .caja{
+        display: flex;
+        justify-content: center;
+        width: 70%;
+    }
+/* quinta cuarta//////////////////////7 */
+    .quinta-parte{
+        height: 80vh;
+    }
+    .cajas-textoImagen{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .video{
+        width: 100%;
+    }
+    .caja-texto-quintaP{
+        width: 100%;
+
+    }
+    /* sexta cuarta//////////////////////7 */
+    
+    .sexta-parte{
+        height: 50vh;
+    }
+    /*septima cuarta//////////////////////7 */
+    .septima-parte{
+        height: 60vh;
+    }
+    .parrafo1 p{
+        font-size: 11px;
+    }
+    .parrafo2 p{
+        font-size: 11px;
+    }
+    /*novena cuarta//////////////////////7 */
+    .novena-parte{
+        height: 90vh;
+    }
+    .formulario{
+        display: flex;
+        flex-direction: column;
+    }
+    .parrafos{
+        width: 100%;
+        font-size: 20px;
+    }
+   
+    .contact{
+        width: 100%;
+    }
+    .novena-parte{
+        grid-template-columns: 2fr 5fr 2r;
+
+    }
+    .mensaje textarea{
+        padding: 19px 40px;
+    }
+    footer{
+        grid-template-columns:1.5fr 7fr 1.5fr;
+    }
+    .menu-foter{
+        font-size: 8px;
+    }
+    .menu-foter ul{
+        width: 70%;
+    }
+}
+
+
+
+
+
